@@ -7,6 +7,28 @@
   pointer-events: none;
 }
 
+.hello{
+  background-color: #61dafb;
+}
+
+.slick-list{
+  position: relative;
+}
+
+.left_btn{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 999;
+}
+
+.right_btn{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 999;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
